@@ -45,5 +45,6 @@ module.exports = {
           name: 'ci:         CI 구성 파일 및 스크립트에 대한 변경 사항 (circle ci, nginx 등)',
         },
     ],
+    allowCustomScopes: true,
     skipQuestions: ['body'],
 };
