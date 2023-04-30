@@ -4,16 +4,16 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "commit": "./node_modules/cz-customizable/standalone.js"
+    "commit": "cz"
   },
   "devDependencies": {
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
-    "cz-customizable": "^7.0.0"
+    "husky": "^8.0.3"
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-customizable"
+      "path": "cz-conventional-changelog"
     }
   }
 }
