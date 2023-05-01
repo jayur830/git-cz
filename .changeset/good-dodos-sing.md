@@ -1,0 +1,5 @@
+---
+"git-cz": patch
+---
+
+aaa
